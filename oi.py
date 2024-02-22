@@ -1,7 +1,7 @@
 from interpreter import interpreter
 
 interpreter.offline = True # Disables online features like Open Procedures
-interpreter.llm.api_key = "fake_key" # LiteLLM, which we use to talk to LM Studio, requires this
+#interpreter.llm.api_key = "fake_key" # LiteLLM, which we use to talk to LM Studio, requires this
 interpreter.llm.model = "dolphin-mistral:latest" # makes a big difference to the experience
 interpreter.llm.api_base = "http://10.0.255.147:11434/v1" # the `/v1` is necessary
 
