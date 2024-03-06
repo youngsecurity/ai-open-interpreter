@@ -9,6 +9,6 @@ interpreter.llm.context_window = 16000
 #interpreter.computer.run("python", "print('Hello World!')")
 
 #interpreter.chat() # Executes a single command
-interpreter.chat("%verbose true")
-interpreter.chat("""ssh devusr@10.0.255.44 'ping -c3 8.8.8.8; exit 0'""")
-
+#interpreter.chat("%verbose true")
+interpreter.chat("""ssh devusr@10.0.255.44 'ping -c3 8.8.8.8\n'""")
+#print(interpreter.system_message)
