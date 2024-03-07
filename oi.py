@@ -10,5 +10,6 @@ interpreter.llm.context_window = 16000
 
 #interpreter.chat() # Executes a single command
 #interpreter.chat("%verbose true")
-interpreter.chat("""ssh devusr@10.0.255.44 'ping -c3 8.8.8.8\n'""")
+#interpreter.chat("""ssh devusr@10.0.255.44 'ping -c3 8.8.8.8\n'""")
+interpreter.chat("""ssh devusr@10.0.255.44 'ls -lash'""")
 #print(interpreter.system_message)
